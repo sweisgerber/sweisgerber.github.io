@@ -24,7 +24,7 @@ some_url:
 
     > :material-message-outline: &nbsp;&nbsp;{{ project.fact }}
 
-    _ :material-firework: [Project Details]({{ project.url }}) 
+    **[Project Details]({{ project.url }})** :material-firework: 
 
 
 {% endfor %}

@@ -36,10 +36,8 @@ some_url:
 
     ## {{ publication.title }}
 
-    {{ publication.description }}    
+    > {{ publication.description }}
   
-    > {{ publication.tags | join(', ') }}
-
     [Publication Details]({{ publication.url }}) :material-note-search-outline:
 
 {% endfor %}
