@@ -1,7 +1,7 @@
 ---
 title: Sebastian Weisgerber - Resume
 hide:
-  - navigation
+#  - navigation
 ---
 
 # Professional Resume
