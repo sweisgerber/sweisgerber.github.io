@@ -2,7 +2,7 @@ site_name: Sebastian Weisgerber / CV
 # site_url: http://localhost
 site_url: https://sweisgerber.de
 site_description: The Resume of Sebastian Weisgerber
-copyright: Copyright &copy; 2013 - Sebastian Weisgerber
+copyright: Copyright &copy; 2023 - Sebastian Weisgerber
 site_author: Sebastian Weisgerber
 repo_url: https://github.com/sweisgerber/sweisgerber.github.io
 use_directory_urls: true
