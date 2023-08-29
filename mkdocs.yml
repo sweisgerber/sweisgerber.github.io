@@ -115,6 +115,7 @@ plugins:
       include_yaml:
         - projects: data/projects_metadata_gen.yml
         - publications: data/publications_metadata_gen.yml
+        - skills: data/skills.yml
   - search
 #    - social
   - tags:
