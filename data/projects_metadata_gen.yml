@@ -1,0 +1,630 @@
+artist:
+  creator: true
+  date: 2016-01-01 00:00:00+01:00
+  description: "ARTist is a flexible Android instrumentation framework for security\
+    \ researchers  and developers based on the Android Runtime\u2019s dex2oat on-device\
+    \ compiler.\n"
+  fact: Application instrumentation works and is useful.
+  featured: true
+  key: artist
+  link: https://artist.cispa.saarland/
+  path: ./docs/projects/2016_artist-android-runtime-instrumentation-toolkit.md
+  sitemap:
+    priority: 0.8
+  tags:
+  - Java
+  - Android
+  - Android-Middleware
+  - Android-System
+  - Android-Art
+  - Compiler-Development
+  - Dex2oat
+  - Android-Apps
+  - Mobile-Development
+  title: ARTist - the flexible Android Instrumentation Framework
+  url: ./projects/2016_artist-android-runtime-instrumentation-toolkit.md
+  weight: 100
+axplorer:
+  creator: true
+  date: 2015-01-01 00:00:00+01:00
+  description: Static Software Analysis of the Android Middleware with wala/joana
+    (& soot exploration)
+  fact: The Android middleware is not so hidden after all.
+  featured: true
+  key: axplorer
+  link: https://github.com/reddr/axplorer
+  path: ./docs/projects/2015_axplorer-static-android-analysis.md
+  sitemap:
+    priority: 0.8
+  tags:
+  - Java
+  - Android
+  - Android-Middleware
+  - Wala
+  - Joana
+  - Soot
+  title: Axplorer - Static Software Analysis of the Android Middleware
+  url: ./projects/2015_axplorer-static-android-analysis.md
+  weight: 100
+cd-research-paper:
+  creator: false
+  date: 2017-01-01 00:00:00+01:00
+  description: Automatic research paper building on CI/CD infrastructure with custom
+    docker image.
+  draft: false
+  fact: Properly maintaining docker images is a time sink.
+  featured: false
+  key: cd-research-paper
+  link: https://github.com/sweisgerber-dev/DebLatex/
+  path: ./docs/projects/2017_gitlab-cd-for-research-group-paper.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Docker
+  - Gitlab
+  - Latex
+  - CI/CD
+  title: 'DebLatex: Gitlab Pipelines for automated Researcher Paper Deployment'
+  url: ./projects/2017_gitlab-cd-for-research-group-paper.md
+  weight: 999
+centralised-monitoring:
+  creator: false
+  date: 2023-01-01 00:00:00+01:00
+  description: Setup of central monitoring and logging server with production-ready
+    monitoring dashboards.
+  draft: false
+  fact: Promtail's syslog interface only accepts TCP, while nginx' syslog logger only
+    sends UDP.
+  featured: true
+  key: centralised-monitoring
+  link: https://grafana.com
+  path: ./docs/projects/2023_monitoring-infrastructure.md
+  tags:
+  - Loki
+  - Prometheus
+  - Grafana
+  - Promtail
+  - Netdata
+  - Rsyslogd
+  - Docker
+  - Nginx
+  - Kubernetes
+  - DevOps
+  title: Kubernetes Individual Service Monitoring with the PLG stack
+  url: ./projects/2023_monitoring-infrastructure.md
+ci-cd-infrastructure:
+  creator: false
+  date: 2017-01-01 00:00:00+01:00
+  description: Introduced CI/CD mechanics at CISPA and was contact person for it.
+  draft: true
+  fact: ''
+  featured: false
+  key: ci-cd-infrastructure
+  link: https://docs.gitlab.com/ee/ci/
+  path: ./docs/projects/2017_gitlab-ci-cd-introduction-cispa.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Gitlab
+  - CI/CD
+  - Docker
+  title: Gitlab CI & CD Introduction and Implementation at CISPA
+  url: ./projects/2017_gitlab-ci-cd-introduction-cispa.md
+  weight: 999
+demo-tamarin-missing-link:
+  creator: false
+  date: 2023-01-01 00:00:00+01:00
+  description: A ScrollyTelling demonstrator which presents complex technical issues
+    in an understandable and engaging way.
+  draft: false
+  fact: Preparing complex technical content (Formal verification) for non computer
+    scientists is hard.
+  featured: true
+  key: demo-tamarin-missing-link
+  link: https://tamarin-tls.cispa.de
+  path: ./docs/projects/2023_missing-link-demonstrator.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Docker
+  - Kubernetes
+  - DevOps
+  - CI/CD
+  - WebFlow
+  - Automation
+  - TechnicalExpertise
+  title: Tamarin-TLS Research Demonstrator
+  url: ./projects/2023_missing-link-demonstrator.md
+  weight: 999
+dr-headerson:
+  creator: false
+  date: 2021-01-01 00:00:00+01:00
+  description: A small browser-based tool, which checks a website's vulnerability
+    to clickjacking.
+  draft: false
+  fact: Many webmasters are not aware of clickjacking counter-measures.
+  featured: true
+  key: dr-headerson
+  link: https://dr.headerson.cispa.de
+  path: ./docs/projects/2021_dr-headerson-demonstrator.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Docker
+  - Python
+  - DevOps
+  - TechnicalExpertise
+  title: Dr. Headerson Research Demonstrator - Automated checking of XFO/CSP headers
+  url: ./projects/2021_dr-headerson-demonstrator.md
+  weight: 999
+eprints:
+  creator: false
+  date: 2017-01-01 00:00:00+01:00
+  description: Evaluation, Setup, Migration and Extension of new Publication Management
+    System
+  draft: false
+  fact: Old software has its Pros.
+  featured: false
+  key: eprints
+  link: https://publications.cispa.saarland
+  path: ./docs/projects/2017_publication-management-system-eprints.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Publication-Management
+  - Eprints
+  - Perl
+  - SQL
+  - JSON
+  title: Publication Management System Implementation with ePrints
+  url: ./projects/2017_publication-management-system-eprints.md
+  weight: 999
+eprints-extension:
+  creator: false
+  date: 2019-01-01 00:00:00+01:00
+  description: Extending ePrints with a conference, journal and conf/journal-ranking
+    system.
+  draft: false
+  fact: 'I think I don''t like Perl '
+  featured: false
+  key: eprints-extension
+  link: https://publications.cispa.saarland/
+  path: ./docs/projects/2019_publication-management-system-eprints-extension.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Perl
+  - Eprints
+  - HTML
+  - CSS
+  title: ePrints extension for publications.cispa.saarland
+  url: ./projects/2019_publication-management-system-eprints-extension.md
+  weight: 999
+eprints-metabase:
+  creator: false
+  date: 2020-01-01 00:00:00+01:00
+  description: Publication evaluation & statistics WebApp.
+  draft: false
+  fact: Metabase is awesome, zero setup, multiple data-source, it just works.
+  featured: false
+  key: eprints-metabase
+  link: https://www.metabase.com
+  path: ./docs/projects/2020_pubc_publication-management-automated-evaluation.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - JSON
+  - Eprints
+  - Metabase
+  - SQL
+  - Docker
+  title: PubC - Publication Curation and Evaluation w/ ePrints and MetaBase
+  url: ./projects/2020_pubc_publication-management-automated-evaluation.md
+  weight: 999
+fuzzart:
+  creator: false
+  date: 2017-01-01 00:00:00+01:00
+  description: An automated large-scale Android Middleware fuzzer
+  draft: false
+  fact: Instrumenting the Android middleware with ARTist to get feedback when fuzzing
+    the Android-Middleware.
+  featured: false
+  key: fuzzart
+  link: https://example.org
+  path: ./docs/projects/2017_fuzzing-android-middleware.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Java
+  - Python
+  - Rust
+  - C
+  - C++
+  - Android
+  - Android-Middleware
+  - Android-System
+  - Android-Art
+  - Android-Emulator
+  - Compiler-Development
+  - Android-Apps
+  - AFL
+  title: Fuzzing the Android Middleware
+  url: ./projects/2017_fuzzing-android-middleware.md
+  weight: 999
+gitlab-kubernetes-automatisation:
+  creator: false
+  date: 2023-01-01 00:00:00+01:00
+  description: Setup and integration of a k3s based kubernetes cluster into gitlab
+    for AutoDevOps integration.
+  draft: false
+  fact: k3s' helm controller is a time-saver, especially for small teams.
+  featured: true
+  key: gitlab-kubernetes-automatisation
+  link: https://k3s.io
+  path: ./docs/projects/2023_kubernetes-cluster-infrastructure.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Kubernetes
+  - DevOps
+  - K3S
+  - Gitlab
+  - Helm
+  title: Kubernetes Cluster Setup, Proxmox Management & Automated DevOps Deployment
+  url: ./projects/2023_kubernetes-cluster-infrastructure.md
+  weight: 999
+llvm-clang:
+  creator: false
+  date: 2014-01-01 00:00:00+01:00
+  description: Loading code in special permission memory regions, by redirecting function
+    callsand utilizing the linker and custom clang optimization passes.
+  fact: A research idea, that didn't come to fruition, but "Writing clang optimization
+    passes is not that hard after all"
+  featured: true
+  key: llvm-clang
+  link: ''
+  path: ./docs/projects/2014_compiler-optimizations-with-llvm-clang.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - LLVM
+  - Clang
+  - Linker-Manipulation
+  - C
+  - C++
+  title: LLVM-Clang Compiler Optimizations & Linker Manipulations
+  url: ./projects/2014_compiler-optimizations-with-llvm-clang.md
+  weight: 999
+mdc:
+  creator: false
+  date: 2019-01-01 00:00:00+01:00
+  description: 'The project implemented a prototypical memory-management library,
+    that made applications benefit from MDC hardware without changing their source
+    code. '
+  draft: false
+  fact: LD_PRELOAD and modifying shared libraries is an awesome mechanism to modify
+    and enhance applications without touching their source code.
+  featured: true
+  key: mdc
+  link: https://github.com/FabricAttachedMemory
+  path: ./docs/projects/2019_mdc-memory-driven-computing.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Memory-Driven-Computing
+  - Application-Manipulation
+  - Docker
+  - LD_PRELOAD
+  - Vagrant
+  - Virtualbox
+  - Singularity
+  - QEMU
+  title: Memory Management Library for MDC architecture and Memory Driven Computing
+    Research Evaluation
+  url: ./projects/2019_mdc-memory-driven-computing.md
+  weight: 999
+money-troop:
+  creator: false
+  date: 2018-01-01 00:00:00+01:00
+  description: Large scale automated Android middleware fuzzing.
+  draft: false
+  fact: Fuzzing like a troop of monkeys
+  featured: true
+  key: money-troop
+  link: https://github.com/Project-ARTist/monkey-troop
+  path: ./docs/projects/2018_monkey-troop-fuzzing-android-middleware-large-scale.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Java
+  - Python
+  - Rust
+  - C
+  - C++
+  - Android
+  - Android-Middleware
+  - Android-System
+  - Android-Art
+  - Android-Emulator
+  - Compiler-Development
+  - Android-Apps
+  - AFL
+  title: Monkey-Troop - Large Scale Automated Android Middleware Fuzzing
+  url: ./projects/2018_monkey-troop-fuzzing-android-middleware-large-scale.md
+  weight: 999
+odoo-jobs:
+  creator: false
+  date: 2019-01-01 00:00:00+01:00
+  description: Customized Application Management system, based on Odoo ERP/CRM
+  draft: false
+  fact: Odoo is great from a developer's perspective.
+  featured: true
+  key: odoo-jobs
+  link: https://jobs.cispa.saarland/
+  path: ./docs/projects/2019_application_management_system_odoo.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Application-Management-System
+  - Python
+  - Odoo
+  - Docker
+  - CSS
+  - HTML
+  - JavaScript
+  title: Custom Application Management System with odoo
+  url: ./projects/2019_application_management_system_odoo.md
+  weight: 999
+playground:
+  creator: false
+  date: 2018-01-01 00:00:00+01:00
+  description: Automated Google Playstore Crawler, Downloader and Sorter
+  draft: false
+  fact: Putting 100k+ files in a single folder is not a good idea
+  featured: false
+  key: playground
+  link: https://example.org
+  path: ./docs/projects/2018_apk-mirror-automated-playstore-crawler-and-downloader.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Python
+  - Playstore
+  - Android-Apk
+  title: PlayGround - Automated Google Playstore Crawler and downloader (APK-Mirror)
+  url: ./projects/2018_apk-mirror-automated-playstore-crawler-and-downloader.md
+  weight: 999
+public-offer-cispa-de:
+  creator: false
+  date: 2019-01-01 00:00:00+01:00
+  description: Technical Expertise Lead in specifying the public offering yext for
+    the current cispa.de.
+  draft: true
+  fact: Writing a Public Call for Bids is no fun.
+  featured: false
+  key: public-offer-cispa-de
+  link: https://cispa.de
+  path: ./docs/projects/2019_public-offering-website-cispa-de-technical-consulting.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Public-Call-for-Bids
+  - Public-Service
+  title: Public Offering & Technical Consulting of a new website for cispa.de
+  url: ./projects/2019_public-offering-website-cispa-de-technical-consulting.md
+  weight: 999
+secuvoice:
+  creator: false
+  date: 2011-10-01 00:00:00+01:00
+  description: Software Developer for Secure VoIP on Android OS with SD smart-cards
+  draft: false
+  fact: 'Cutting an audio stream into small packets, encrypting them and sending them
+    through the internet is fun. '
+  image: ''
+  key: secuvoice
+  link: https://www.secusmart.com
+  path: ./docs/projects/2011-10-01_secuvoice-android.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Android
+  - Android-Apps
+  - Android-NDK
+  - Android-SDK
+  - Audio-Low-Level
+  - OpenSL-ES
+  - C
+  - C++
+  - Java
+  - Java-JNI
+  - VoIP
+  - RTP
+  - SIP
+  - TLS
+  - SRTP
+  - Key-Exchange
+  - Smart-Cards
+  - Stream-Encryption
+  title: SecuVoice - Android-based SmartCard Encrypted Secure Voice for Android
+  url: ./projects/2011-10-01_secuvoice-android.md
+  weight: 999
+tamarin-gui:
+  creator: false
+  date: 2022-01-01 00:00:00+01:00
+  description: A React and TypeScript based dynamic graph render library and user
+    interface for the Tamarin-Prover. During development there was a huge focus on
+    rendering the SVG-based graph in a performant way, to keep the re-render  count
+    small.
+  draft: false
+  fact: There's a reason, why people write papers about graph layouting.
+  featured: true
+  key: tamarin-gui
+  link: https://github.com/tamarin-prover
+  path: ./docs/projects/2022_tamarin-new-gui-frontend.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Typescript
+  - React
+  - Parcel
+  - HTML
+  - CSS
+  - Emotion
+  - Storybook
+  - Tamarin
+  - DevOps
+  - Docker
+  - Kubernetes
+  title: MisLi - A new GUI Frontend for Tamarin (MissingLink)
+  url: ./projects/2022_tamarin-new-gui-frontend.md
+  weight: 999
+vodafone-secure-voice:
+  creator: false
+  date: 2013-01-01 00:00:00+01:00
+  description: Software Developer for Secure VoIP on Android OS with SIM-based certificates
+  draft: false
+  fact: You can store certificates on SIM cards and read them in Android apps.
+  image: null
+  key: vodafone-secure-voice
+  link: https://www.vodafone.de/downloadarea/Vodafone_Flyer_Secure_Call.pdf
+  path: ./docs/projects/2013-01-01_vodafone-secure-voice.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Android
+  - Android-Apps
+  - Android-NDK
+  - Android-SDK
+  - Audio-Low-Level
+  - OpenSL-ES
+  - C
+  - C++
+  - Java
+  - Java-JNI
+  - VoIP
+  - RTP
+  - SIP
+  - TLS
+  - SRTP
+  - Key-Exchange
+  - Smart-Cards
+  - Stream-Encryption
+  title: Vodafone Secure Voice for Android
+  url: ./projects/2013-01-01_vodafone-secure-voice.md
+  weight: 999
+website-cispa-de-jekyll:
+  creator: false
+  date: 2017-01-01 00:00:00+01:00
+  description: Static Website Generator with dynamic content generation for cispa.de  with
+    Jekyll, Bootstrap and automatic data aggregation on gitlab CI/CD
+  draft: false
+  fact: Dedicated system for specific tasks are great. CI/CD automatic is robust.
+  featured: false
+  key: website-cispa-de-jekyll
+  link: http://cispa.saarland
+  path: ./docs/projects/2017_jekyll-static-website-generator-cispa-de.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Static-Website-Generator
+  - Jekyll
+  - Liquid
+  - Ruby
+  - SCSS
+  - HTML
+  - Bootstrap
+  - JavaScript
+  - CI/CD
+  - Gitlab
+  - Automation
+  title: New Website for cispa.de with Jekyll Static Website Generator
+  url: ./projects/2017_jekyll-static-website-generator-cispa-de.md
+  weight: 999
+website-cispa-de-netlify:
+  creator: false
+  date: 2019-01-01 00:00:00+01:00
+  description: Headless CMS for cispa.saarland with Jekyll and Netlify for th non-tech
+    personnel.
+  draft: true
+  fact: A Static Website Generator can be a CMS, too!
+  featured: false
+  key: website-cispa-de-netlify
+  link: https://cispa.saarland
+  path: ./docs/projects/2019_headless-cms-extension-cispa-de.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - Jekyll
+  - Netlify
+  - Gitlab
+  - CI/CD
+  title: Headless CMS extension for cispa.de with Jekyll and Netlify
+  url: ./projects/2019_headless-cms-extension-cispa-de.md
+  weight: 999
+website-cispa-security:
+  creator: false
+  date: 2014-01-01 00:00:00+01:00
+  description: Modernized amd maintainable website for CISPA and the research groups
+    with Wordpress and developed plugin code.
+  draft: false
+  fact: Popular plugins are not always the best choice.
+  featured: false
+  key: website-cispa-security
+  link: https://cispa.de
+  path: ./docs/projects/2014_wordpress-website-cispa-de-research-group-infsec-website-and-publication-management.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - LAMP
+  - WordPress
+  - PHP
+  - SQL
+  - CSS
+  - HTML
+  title: Wordpress-based Website for CISPA (cispa-security.de) and the InfSec Research
+    Group
+  url: ./projects/2014_wordpress-website-cispa-de-research-group-infsec-website-and-publication-management.md
+  weight: 999
+website-itss:
+  creator: false
+  date: 2016-01-01 00:00:00+01:00
+  description: Wordpress based website for ITSS IT-Sicherheit Saarland.
+  draft: true
+  fact: WordPress is quite good when sticking close to the official API
+  featured: false
+  key: website-itss
+  link: https://it-sicherheit.saarland/
+  path: ./docs/projects/2016_wordpress-website-itss.md
+  sitemap:
+    priority: 0.8
+    weight: 0.1
+  tags:
+  - LAMP
+  - WordPress
+  - PHP
+  - HTML
+  - CSS
+  title: Wordpress-based Website for IT-Sicherheit Saarland Initiative
+  url: ./projects/2016_wordpress-website-itss.md
+  weight: 999

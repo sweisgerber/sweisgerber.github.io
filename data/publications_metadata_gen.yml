@@ -1,0 +1,111 @@
+masters-thesis:
+  date: 2011-09-30T13:00:00+0100
+  description: "\"Design einer mobilen Anwendung zur verschl\xFCsselten Sprachkommunikation\
+    \ auf Basis des Android Betriebssystems mit ZRTP, SRTP und SIP\""
+  fact: The thesis that became my first job as a professional
+  featured: false
+  key: masters-thesis
+  link: https://paper.url
+  path: ./docs/publications/2011-09_masters-thesis_design-einer-mobilen-anwendung-zur-verschluesselten-sprackommunikation-auf-android.md
+  pubtype: thesis
+  sitemap:
+    priority: 0.8
+  tags:
+  - Android
+  - Android-Apps
+  - Android-NDK
+  - Android-SDK
+  - C
+  - C++
+  - Java
+  - Java-JNI
+  - VoIP
+  - RTP
+  - SIP
+  - SRTP
+  - Key-Exchange
+  - Stream-Encryption
+  - ZRTP
+  title: "Master's Thesis: Design einer mobilen Anwendung zur verschl\xFCsselten Sprachkommunikation\
+    \ auf Basis des Android Betriebssystems"
+  url: ./publications/2011-09_masters-thesis_design-einer-mobilen-anwendung-zur-verschluesselten-sprackommunikation-auf-android.md
+  weight: 400
+paper-artist:
+  date: 2017-04-26T13:00:00+0100
+  description: ARTist, a compiler-based application instrumentation solution for Android
+    that does not depend on operating system modifications and solely operates on
+    the application layer.
+  draft: false
+  fact: '"Since dex2oat was yet uncharted, our approach required first and foremost
+    a thorough study of the compiler suite''s internals and in particular of the new
+    default compiler backend called Optimizing."'
+  featured: true
+  image: ''
+  key: paper-artist
+  link: https://ieeexplore.ieee.org/document/7961998
+  path: ./docs/publications/2017-04_artist-the-android-runtime-instrumentation-and-security-toolkit.md
+  pubtype: paper
+  sitemap:
+    priority: 0.8
+  tags:
+  - Android
+  - Android-System
+  - Application-Instrumentation
+  - Java
+  - C++
+  - C
+  title: 'ARTist: The Android Runtime Instrumentation and Security Toolkit'
+  url: ./publications/2017-04_artist-the-android-runtime-instrumentation-and-security-toolkit.md
+  weight: 400
+paper-arxiv-monkey-troop:
+  date: 2021-10-11T13:00:00+0100
+  description: A unified dynamic analysis platform that provides re-usable solutions
+    for common challenges as the building blocks for future analyses and allows to
+    compare different approaches under the same assumptions.
+  draft: false
+  fact: '"Fuzzing like a troop of monkeys"'
+  featured: true
+  image: ''
+  key: paper-arxiv-monkey-troop
+  link: https://arxiv.org/abs/2110.05619
+  path: ./docs/publications/2021-10_towards-a-principled-approach-for-dynamic-analysis-of-androids-middleware.md
+  pubtype: paper
+  sitemap:
+    priority: 0.8
+  tags:
+  - Fuzzing
+  - Dex2oat
+  - Android
+  - Android-Middleware
+  - Android-System
+  - Python
+  - C++
+  - C
+  - Java
+  - Java-JNI
+  title: Towards a Principled Approach for Dynamic Analysis of Android's Middleware
+  url: ./publications/2021-10_towards-a-principled-approach-for-dynamic-analysis-of-androids-middleware.md
+  weight: 400
+paper-axplorer:
+  date: 2016-08-10T13:00:00+0100
+  description: '"The Android middleware is not so hidden after all."'
+  draft: false
+  fact: '""'
+  featured: true
+  image: ''
+  key: paper-axplorer
+  link: https://paper.url
+  path: ./docs/publications/2016-08_on-demystifying-the-android-application-framework.md
+  pubtype: paper
+  sitemap:
+    priority: 0.8
+  tags:
+  - Java
+  - Android
+  - Wala
+  - Joana
+  - Soot
+  title: 'On Demystifying the Android Application Framework: Re-Visiting Android Permission
+    Specification Analysis'
+  url: ./publications/2016-08_on-demystifying-the-android-application-framework.md
+  weight: 400

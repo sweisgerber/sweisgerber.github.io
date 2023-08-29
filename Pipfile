@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mkdocs = "*"
+mkdocs-macros-plugin = "*"
+mkdocs-material = {extras = ["privacy"], version = "*"}
+mkdocs-with-pdf = "*"
+python-frontmatter = "*"
+pyyaml = "*"
+mkdocs-exclude = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.3"

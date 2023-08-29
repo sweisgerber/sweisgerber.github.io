@@ -1,0 +1,164 @@
+site_name: CV sweisgerber
+# site_url: http://localhost
+site_url: https://sweisgerber.de
+site_description: The Resume of Sebastian Weisgerber
+copyright: Copyright &copy; 2013 - Sebastian Weisgerber
+site_author: Sebastian Weisgerber
+repo_url: https://github.com/sweisgerber/cv
+use_directory_urls: true
+#
+#theme: readthedocs
+#
+theme:
+  name: material
+  language: en
+  favicon: img/favicon.png
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tracking
+    - toc.integrate
+    - toc.follow
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      primary: lime
+#      primary: white
+#    primary: pink
+#    primary: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+   # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      primary: black
+#    primary: pink
+#    primary: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  font: false
+#  font:
+#    text: Roboto
+#    code: Roboto Mono
+  # Automatically bundle Google Fonts
+  #
+  #The built-in privacy plugin makes it easy to use Google Fonts while complying with the General Data Protection Regulation (GDPR), by automatically downloading and self-hosting the web font files.
+
+extra_css: []
+extra_javascript: []
+extra_templates: []
+
+nav:
+    - Home: index.md
+    - Projects by Year: projects.md
+    - Publications by Year: publications.md
+    - Everything by Topic: tags.md
+    - Conferences: conferences.md
+    - Skills: skills.md
+#    - About: about.md
+
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:mail (ät) sweisgerber (dott) de
+      name: Personal Email
+    - icon: fontawesome/brands/github
+      link: github.com/sweisgerber-dev
+      name: GitHub (professional)
+    - icon: fontawesome/brands/github
+      link: github.com/sweisgerber
+      name: GitHub (personal)
+#    - icon: fontawesome/brands/github
+#      link: https://github.com/cispa
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/sweisgerber/
+      name: Docker
+    - icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/users/726776/sweisgerber-dev
+      name: Stack-Overflow
+    - icon: fontawesome/brands/stack-exchange
+      link: https://unix.stackexchange.com/users/65400/sweisgerber-dev
+      name: Unix & Linux
+    - icon: material/school
+      link: https://scholar.google.de/citations?user=lv39NCoAAAAJ
+      name: Google Scholar
+
+# Markdown Plugins ############################################################
+#
+markdown_extensions:
+  - attr_list
+  - admonition
+  - def_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.superfences
+#
+# Plugins #####################################################################
+#
+plugins:
+  # https://github.com/apenwarr/mkdocs-exclude
+  - exclude:
+      glob:
+        - ".*"
+        - "about.md"
+        - "*debug.md"
+  - offline:
+      enabled: !ENV [ MKDOCS_CV_OFFLINE, false ]
+  - macros:
+      include_yaml:
+        - projects: data/projects_metadata_gen.yml
+        - publications: data/publications_metadata_gen.yml
+  - search
+#    - social
+  - tags:
+      tags_file: tags.md
+#  - privacy:
+#      assets: true
+#      assets_fetch: true
+#    - minify # <https://github.com/byrnereese/mkdocs-minify-plugin>
+#    - redirects # <https://github.com/mkdocs/mkdocs-redirects>
+  - with-pdf: # https://github.com/orzih/mkdocs-with-pdf
+      enabled_if_env: MKDOCS_CV_BUILD_PDF
+      author: Sebastian Weisgerber
+      #copyright: ANY TEXT
+      #
+      #cover: false
+      #back_cover: true
+      #cover_title: TITLE TEXT
+      cover_subtitle: Resume
+      #custom_template_path: TEMPLATES PATH
+      #
+      #toc_title: TOC TITLE TEXT
+      #heading_shift: false
+      #toc_level: 3
+      #ordered_chapter_level: 2
+      #excludes_children:
+      #    - 'release-notes/:upgrading'
+      #    - 'release-notes/:changelog'
+      #
+      exclude_pages:
+        - 'demo'
+      #    - 'appendix/contribute/'
+      #convert_iframe:
+      #    - src: IFRAME SRC
+      #      img: POSTER IMAGE URL
+      #      text: ALTERNATE TEXT
+      #    - src: ...
+      #two_columns_level: 3
+      #
+      #render_js: true
+      #headless_chrome_path: headless-chromium
+      #
+      #output_path: any-place/document.pdf
+      #enabled_if_env: ENABLE_PDF_EXPORT
+      #
+      #debug_html: true
+      #show_anchors: true
+      #verbose: true
