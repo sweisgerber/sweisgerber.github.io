@@ -23,6 +23,8 @@ some_url:
 
 # Publications
 
+A collection of scientific publications I co-authored.
+
 {% set publications_list = [] %}
 
 {% for publication_key in publications %}

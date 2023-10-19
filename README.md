@@ -20,6 +20,14 @@ mkdocs build
 pipenv upgrade
 ```
 
+## Usage - Generate PDF
+
+```shell
+MKDOCS_CV_BUILD_PDF=1 mkdocs build
+MKDOCS_ENABLE_PDF_EXPORT=1 mkdocs build
+
+```
+
 ## Update `data/` files
 
 ```shell

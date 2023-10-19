@@ -8,6 +8,8 @@ some_url:
 
 # Projects
 
+This section contains projects I worked on during my professional career.
+
 {% set projects_list = [] %}
 
 {% for projects_key in projects %}
