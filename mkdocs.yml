@@ -24,15 +24,15 @@ theme:
     - toc.follow
   palette:
     # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: slate
-      primary: lime
-#      primary: white
-#    primary: pink
-#    primary: cyan
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+#    - media: "(prefers-color-scheme: light)"
+#      scheme: slate
+#      primary: lime
+##      primary: white
+##    primary: pink
+##    primary: cyan
+#      toggle:
+#        icon: material/brightness-4
+#        name: Switch to light mode
    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: default
@@ -127,6 +127,11 @@ plugins:
 #      assets_fetch: true
 #    - minify # <https://github.com/byrnereese/mkdocs-minify-plugin>
 #    - redirects # <https://github.com/mkdocs/mkdocs-redirects>
+  - pdf-export:
+      verbose: true
+      media_type: print
+      enabled_if_env: MKDOCS_ENABLE_PDF_EXPORT
+      combined: true
   - with-pdf: # https://github.com/orzih/mkdocs-with-pdf
       enabled_if_env: MKDOCS_CV_BUILD_PDF
       author: Sebastian Weisgerber
